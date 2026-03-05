@@ -22,7 +22,6 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 background-attachment:fixed;
-color:#eaf3ff;
 }
 
 .wrap{max-width:var(--container);margin:40px auto;padding:28px}
@@ -168,4 +167,5 @@ textarea{grid-column:1/ -1;min-height:120px}
 
 /* Small helper */
 .hidden { display:none !important; }
+
 
