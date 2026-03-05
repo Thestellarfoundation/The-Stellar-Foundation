@@ -12,7 +12,17 @@
 }
 
 *{box-sizing:border-box}
-html,body{height:100%;margin:0;background:linear-gradient(180deg,var(--bg),#041226);color:#eaf3ff}
+html,body{
+height:100%;
+margin:0;
+background:
+linear-gradient(180deg, rgba(7,16,40,0.85), rgba(4,18,38,0.9)),
+url("Bacg.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+color:#eaf3ff;
+}
 body {
   background-image: url("bacg.png");
   background-size: cover;
@@ -163,4 +173,5 @@ textarea{grid-column:1/ -1;min-height:120px}
 }
 
 /* Small helper */
+
 .hidden { display:none !important; }
